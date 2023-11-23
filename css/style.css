@@ -466,7 +466,7 @@ body{
     background-color: #06F;
     padding: 4px 20px;
 }
-.blog__link{
+.showmore-link{
     text-transform: uppercase;
     background-color: #151515;
     padding: 13px;
@@ -479,5 +479,80 @@ body{
 /*секция blog */
 
 
-/*страничка контактоа */
+/* страничка new-car */
+.choose{
+    padding: 100px 0 150px;
+
+}
+.tabs__btn{
+    padding: 0 150px;
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.tabs__btn-item{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+/* hover */
+.tabs__btn-item--active{
+    color: #0066ff;
+}
+/* hover */
+
+/* карточка това */
+.tabs__content-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+    margin-bottom: 70px;
+}
+.card{
+    text-align: center;
+}
+
+.card__img{/*  для того чтоб сделать блочным элем и убрать отступ */
+    display: block;
+
+}
+.card__content{
+    padding: 0 5px;
+    border: 1px solid #0066ff;
+}
+.card__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card__text{ 
+    margin-bottom: 20px;
+}
+
+.card__price{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__link{
+    display: block;
+    padding: 0 5px;
+    color:#06F;
+    border: 1px #0066ff;
+}
+
+/* карточка това */
+
+
+
+/* страничка new-car */
 
